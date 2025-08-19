@@ -7,8 +7,7 @@
  **Problem Statement:** 
 Gesture-to-Speech Translator
 
-** ID : ** 
-HTH_22
+ID : HTH_22
 
 
 # Description of Project: 
