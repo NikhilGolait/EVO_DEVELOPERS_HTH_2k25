@@ -4,11 +4,11 @@
 
 # Problem Statement Title with ID:
 
-# Problem Statement: 
-**Gesture-to-Speech Translator**
+ **Problem Statement:** 
+Gesture-to-Speech Translator
 
-# ID : 
-**HTH_22**
+** ID : ** 
+HTH_22
 
 
 # Description of Project: 
@@ -67,11 +67,53 @@ Wire.h :- For Communication between Sensors and Controller
 
 **Git 2nd Push Completed (2:30 PM) ** 
 
-# Group members: 
 
+# Git Push 3 (Final Push)
+Code Has Been Updated for the IoT Related tasks.  
+Created A Block Digaram of the System for simple and Easy Understanding of the System.
+Images of the system upladed in the repo.
+
+Added IoT Based Functionalities Eg. 
+1. Live Notification sharing to the Mobile through Blynk Cloud.
+2. Easy and Simple Notifications (Blynk IoT App Notification and G-Mail)
+
+Clicked Photos of the Working System & push in the Github Repo.
+
+# Working of the System With Updated IoT Features
+
+1. **Gesture Detection**
+The MPU6050 sensor detects hand orientation and movement in terms of pitch, roll, and yaw angles.
+Each specific gesture corresponds to predefined angle thresholds.
+Example: Tilting the hand forward/backward/sideways represents different gestures.
+
+2. **Data Processing**
+The detected sensor values are sent to the NodeMCU ESP8266.
+The microcontroller processes the raw data and identifies which gesture has been performed.
+A gesture-to-word/phrase mapping is maintained, ensuring that each gesture translates to a meaningful output.
+
+3. **Output Generation**
+Once a gesture is identified:
+The 16x2 LCD display shows the corresponding text.
+The APR audio module plays the pre-recorded voice message.
+The sound is output through a speaker for real-time speech translation.
+
+4. **IoT Integration (Blynk Cloud + Gmail)**
+The system is connected to the Blynk IoT Cloud via NodeMCU ESP8266.
+When a gesture is detected:
+A Blynk mobile notification is triggered, updating the user's smartphone instantly.
+A Gmail alert is also sent, ensuring the gesture information can be received remotely.
+This IoT feature makes the system more accessible, connected, and user-friendly, allowing gestures to be communicated even over long distances.
+
+
+# Output of the system: 
+1. Right --> Emergency
+2. front --> Thank you
+3. Back  --> I want medicine
+4. left  --> i want water
+
+
+# Group members: 
 1. Nikhil Golait
 2. Vedant Bhendkar
 3. Akshad Gulhane
-
-
 
